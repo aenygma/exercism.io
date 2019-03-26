@@ -1,6 +1,8 @@
 
 # vim files
 *.sw?
+*.pyc
 
-python/*/.pytest_cache/
-
+# directories
+__pycache__/
+.exercism/
