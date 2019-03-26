@@ -16,6 +16,7 @@ class CircularBuffer(object):
 
     def read(self):
         """ read from current location """
+
         if len(self.buffer) == 0:
             raise BufferEmptyException("Buffer Empty")
         return self.buffer.popleft()
